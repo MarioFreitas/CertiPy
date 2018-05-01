@@ -1,0 +1,43 @@
+\documentclass[a4paper, landscape, 12pt]{memoir}
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0cm, bottom=1cm, outer=1cm, inner=1cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\tikz[remember picture,overlay] \node[opacity=0.5,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{background.pdf}};
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{header.pdf}
+\end{figure}\begin{vplace}[0.5]
+\begin{center}
+
+\Huge
+\textbf{Certificamos que} 
+
+\vspace{5mm}
+
+\Huge
+\textbf{John Snow}
+\vspace{5mm}
+
+\huge
+
+Participou do \textbf{Worshop Python Básico}, como parte do evento \textbf{Civcom Workshop Week}, realizado em  \textbf{07 de maio de 2018}, com duração de \textbf{02 horas e 30 minutos}, no Laboratório Central de Computação Científica da Faculdade de Tecnologia da Universidade de Brasília.
+
+\vspace{5mm}
+\large
+Código de Autenticação: CCWW201805-8MV9489P
+\end{center}
+\end{vplace}
+
+\begin{figure}[b]
+\includegraphics[width=\textwidth]{footer.pdf}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,2 @@
+python validation_generator.py
+python generate_all_certificates.py

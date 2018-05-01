@@ -1,0 +1,8 @@
+curso = 'Worshop Python Básico'
+evento = 'Civcom Workshop Week'
+local = 'no Laboratório Central de Computação Científica da Faculdade de Tecnologia da Universidade de Brasília'
+data = '07 de maio de 2018'
+carga = '02 horas e 30 minutos'
+alunosFile = 'alunos.csv'
+validacoesFile = 'validacoes.csv'
+prefix = 'CCWW201805'
